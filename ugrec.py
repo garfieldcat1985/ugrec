@@ -6,8 +6,8 @@ from concurrent.futures.process import ProcessPoolExecutor
 
 # os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 tf.compat.v1.disable_eager_execution()
-tf.random.set_seed(1)
-numpy.random.seed(10)
+#tf.random.set_seed(1)
+#numpy.random.seed(10)
 from sampler import WarpSampler
 from side_inf_sampler import SideInfWarpSampler
 from utils import *

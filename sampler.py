@@ -1,7 +1,7 @@
 import numpy
 from multiprocessing import Process, Queue
 from scipy.sparse import lil_matrix
-numpy.random.seed(10)
+#numpy.random.seed(10)
 
 def sample_function(user_item_matrix, batch_size, n_negative, result_queue, check_negative=True):
     """

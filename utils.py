@@ -3,7 +3,7 @@ from collections import defaultdict
 import numpy as np
 from scipy.sparse import dok_matrix, lil_matrix
 
-np.random.seed(10)
+#np.random.seed(10)
 
 def get_test_negative(negative_file):
     test_negtavie = defaultdict(set)
