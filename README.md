@@ -5,4 +5,4 @@ Recommendation](https://doi.org/10.1145/3404835.3462835) in the Conference SIGIR
 Python 3.8 + Tensorflow 2.1.0 <br />
 **Example to run the codes:**<br />
 Run ugrec.py <br />
-python ugrec.py --dataset movie --embed_size 64 --lr 0.05 --batch_size 200 --epoch 1000 --Ks 20 --margins [1.8,1.0,0.9]
+python ugrec.py --dataset movie --embed_size 64 --lr 0.05 --batch_size 200 --epoch 1000 --Ks 20 --margins [1.9,1.0,1.0]
