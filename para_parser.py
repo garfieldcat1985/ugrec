@@ -17,7 +17,7 @@ def parse_args():
                         help='Learning rate.')
     parser.add_argument('--Ks', nargs='?', type=int, default=20,
                         help='Top k(s) recommend')
-    parser.add_argument('--margins', nargs='?', default=[1.5, 1.5, 1.5],
+    parser.add_argument('--margins', nargs='?', default='[1.5, 1.5, 1.5]',
                         help='Margins for major interactive space, directed side information spaces and undirected side information spaces.')
 
     return parser.parse_args()
